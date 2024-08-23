@@ -1,0 +1,309 @@
+
+/* styles.css */
+.button {
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    width: 100px; /* Chỉnh kích thước cho đồng đều */
+    display: inline-block;
+    margin: 5px;
+}
+
+.button-approve {
+    background-color: green;
+    color: white;
+}
+
+.button-disapprove {
+    background-color: red;
+    color: white;
+}
+
+.button-delete {
+    background-color: gray;
+    color: white;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+/*search */
+
+/* app.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.search-container {
+    display: flex;
+    justify-content: right;
+    margin-top: 20px;
+    margin-right: 2%;
+}
+
+.search-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    width: 300px;
+}
+
+.search-button {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid #007bff;
+    background-color: #007bff;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #0056b3;
+}
+
+.table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.table th {
+    background-color: #f4f4f4;
+}
+
+.button {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.button-approve {
+    background-color: #28a745;
+    color: white;
+}
+
+.button-disapprove {
+    background-color: #dc3545;
+    color: white;
+}
+
+.button-delete {
+    background-color: #dc3545;
+    color: white;
+}
+
+.button-approve:hover,
+.button-disapprove:hover,
+.button-delete:hover {
+    opacity: 0.8;
+}
+
+/*hien thi thong bao login*/
+.alert {
+    padding: 15px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.alert-danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+category-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+
+.btn-green {
+    background-color: green;
+}
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+.search-bar {
+    margin-bottom: 20px;
+}
+.categories {
+    margin-bottom: 20px;
+}
+.card-body {
+    position: relative;
+}
+.card-body .btn-group {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.categories {
+    display: none;
+    margin-bottom: 20px;
+}
+.categories.active {
+    display: block;
+}
+.card-img {
+    max-height: 200px;
+    object-fit: cover;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.content-img {
+    max-height: 200px;
+    object-fit: cover;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.images img {
+    max-width: 90%;
+    max-height: 500px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+.comments-list li {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.comments-list .btn-danger {
+    margin-left: 10px;
+}
+
+.ratings-summary {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.back-link {
+    margin-top: 20px;
+    display: inline-block;
+}
+
+/*gưg*/
+.card2 {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.2s;
+    margin-bottom: 20px;
+}
+.card2:hover {
+    transform: scale(1.05);
+}
+.card-img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 200px;
+    object-fit: cover;
+}
+.card-body {
+    padding: 15px;
+}
+.avatar-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 70%;
+    /*object-fit: cover;*/
+}
+/*Post*/
+.post-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+
+}
+
+.post-title {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.post-description {
+    margin-bottom: 1.5rem;
+}
+
+.img-thumbnail {
+    display: block;
+    margin: 0 auto 1.5rem;
+    max-width: 100%;
+    height: auto;
+}
+
+.avatar-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.comment-content {
+    font-weight: bold;
+}
+
+.edit-comment,
+.cancel-edit {
+    font-size: 0.8rem;
+}
+
+.rating-select {
+    margin-bottom: 1.5rem;
+}
+/*sao */
+.star-rating {
+    display: inline-flex;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #ddd; /* Màu sắc ngôi sao khi chưa chọn */
+}
+
+.star {
+    transition: color 0.3s;
+}
+
+.star.selected,
+.star.hovered {
+    color: #ffc107; /* Màu sắc ngôi sao khi dơ chuột hoặc chọn */
+}
+
+.star.hovered ~ .star {
+    color: #ddd; /* Ngôi sao sau ngôi sao dơ chuột giữ màu gốc */
+}
